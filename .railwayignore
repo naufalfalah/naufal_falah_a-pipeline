@@ -1,0 +1,12 @@
+# Dockerfile serving hanya butuh serving_model/ — sisanya tidak perlu ikut ter-upload
+# ke Railway (mempercepat `railway up` & menghindari limit ukuran build context).
+.venv
+.git
+__pycache__
+naufal_falah_a-pipeline/
+data/
+data_clean/
+monitoring/
+*.ipynb
+*.pyc
+*.db
