@@ -1,0 +1,13 @@
+global:
+  scrape_interval: 15s
+  evaluation_interval: 15s
+
+rule_files:
+  - prometheus.config
+
+scrape_configs:
+  - job_name: 'naufal_falah_a-heart-disease-serving'
+    scheme: https
+    metrics_path: /monitoring/prometheus/metrics
+    static_configs:
+      - targets: ['naufal-falah-a-heart-disease-production.up.railway.app']

@@ -3,7 +3,7 @@
 .venv
 .git
 __pycache__
-naufal_falah_a-pipeline/
+/naufal_falah_a-pipeline/
 data/
 data_clean/
 monitoring/

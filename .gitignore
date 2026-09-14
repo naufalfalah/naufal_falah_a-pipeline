@@ -16,3 +16,6 @@ __pycache__/
 
 # OS
 .DS_Store
+
+# Project
+/naufal_falah_a-pipeline/
